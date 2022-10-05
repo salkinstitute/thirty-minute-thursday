@@ -21,6 +21,7 @@
 Quickly build predictable containers to develop and deploy applications, using infrastructure as code.  Docker has a rich eco-system of prebuilt containers including those from all major service vendors (list here). Dockerfiles can be versioned and stored within application directories so that all developers can develop in a identical environment.  
 
 ### Running Commands
+First, copy
 ```
 # Search Pubmed using PHP 8 and curl.
 # I'm wgeting the file, TODO
