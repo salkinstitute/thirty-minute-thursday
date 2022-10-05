@@ -15,12 +15,18 @@
 - Latest version of Docker
 - docker-compose
 - Shutdown any other services that may be running on conflicting ports 
+- Checked out this repo to your local computer
 
 ### Why use Docker
 Quickly build predictable containers to develop and deploy applications, using infrastructure as code.  Docker has a rich eco-system of prebuilt containers including those from all major service vendors (list here). Dockerfiles can be versioned and stored within application directories so that all developers can develop in a identical environment.  
 
 ### Running Commands
-Basic command examples here stub.
+```
+# Search Pubmed using PHP 8 and curl.
+# I'm wgeting the file, TODO
+docker run --rm -it -v ${PWD}:/tmp php:8 php /tmp/search_pubmed_by_title.php "Cell Division"
+```
+
 ### Run a Stack
 Stub
 ### Using DockerHub
