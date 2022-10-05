@@ -10,12 +10,15 @@
   7. [Helpful scripts](#helpful-scripts)
 
 #### Video Link
+
 ### Pre-requisites
 - Latest version of Docker
 - docker-compose
 - Shutdown any other services that may be running on conflicting ports 
+
 ### Why use Docker
-Have you ever had a fully working blah ditty blah blah
+Quickly build predictable containers to develop and deploy applications, using infrastructure as code.  Docker has a rich eco-system of prebuilt containers including those from all major service vendors (list here). Dockerfiles can be versioned and stored within application directories so that all developers can develop in a identical environment.  
+
 ### Running Commands
 Basic command examples here stub.
 ### Run a Stack
