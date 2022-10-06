@@ -11,9 +11,7 @@ ENV NPM_ENV=prod \
     EXPOSE_PHP=0 \
     PHP_TIMEZONE=-UTC \
     LARAVEL_VERSION=""\
-    COMPOSER_REQUIRES="directorytree/ldaprecord-laravel guzzlehttp/guzzle laravel/breeze spatie/laravel-backup" \
-    VOYAGER_ADMIN_EMAIL=""\
-    VOYAGER_ADMIN_PASSWORD=""
+    COMPOSER_REQUIRES="directorytree/ldaprecord-laravel guzzlehttp/guzzle laravel/breeze spatie/laravel-backup" 
 
 WORKDIR /var/www
 
