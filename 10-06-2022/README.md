@@ -37,7 +37,7 @@ docker run --rm -it -v ${PWD}:/tmp php:8 php /tmp/search_pubmed_by_title.php "Ce
 # Look for a Dockerfile in the working directory and build a container
 # The '-t' option is used to tag(name) the image in format reponame/version
 docker build -t tmt/100622 .
-# Now we bring run the container and get a shell
+# Now we bring up the container and get a bash shell
 docker run -it --rm tmt/100622 bash
 # check our php version
 php -v
