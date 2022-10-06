@@ -41,8 +41,10 @@ docker build -t tmt/100622 .
 docker run -it --rm tmt/100622 bash
 # check our php version
 php -v
-# check for composer
-composer
+# See what's installed in composer
+composer show -i
+# See that artisan is working
+php artisan tinker
 ```
 ### Running Stacks
 #### Preview of Part 2.
