@@ -19,7 +19,7 @@ cd thirty-minute-thursday/10-06-2022
 ```
 
 ### Why use Docker
-Quickly build predictable containers to develop and deploy applications, using infrastructure as code.  Docker has a rich eco-system of prebuilt containers including those from all major service vendors (list here). Dockerfiles can be versioned and stored within application directories so that all developers can develop in a identical environment.  
+Quickly build predictable containers to develop and deploy applications, using infrastructure as code.  [Docker has a rich eco-system of prebuilt containers including those from all major service vendors](https://hub.docker.com/). Dockerfiles can be versioned and stored within application directories so that all developers can develop in a identical environment.  
 
 ### Running Containers 
 #### With a prebuilt container
