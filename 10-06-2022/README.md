@@ -22,13 +22,13 @@ cd thirty-minute-thursday/10-06-2022
 Quickly build predictable containers to develop and deploy applications, using infrastructure as code.  [Docker has a rich eco-system of prebuilt containers including those from all major service vendors](https://hub.docker.com/). Dockerfiles can be versioned and stored within application directories so that all developers can develop in a identical environment.  
 
 ### Running Containers 
-#### With a prebuilt container
-This command spins up a disposable(--rm) php8 container with an interactive terminal (-it), mounts the current local directory on the /tmp folder in the container and executes a script that searches pubmed with a search phrase. 
+#### From a prebuilt image
+This command spins up a disposable(--rm) php8 container with an interactive terminal (-it), mounts the current local directory on the /tmp folder in the container and executes a script that searches pubmed titles with a provided string argument. 
 ```
 # Search Pubmed using PHP 8 and curl.
 docker run --rm -it -v ${PWD}:/tmp php:8 php /tmp/search_pubmed_by_title.php "Cell Division"
 ```
-#### With a custom container
+#### From a custom image
 ```
 # Helpful Links
 # https://docs.docker.com/reference/
