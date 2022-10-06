@@ -7,7 +7,7 @@ This will be an introduction of the different aspects of using containers locall
   3. [Run a stack](#running-stacks) using a docker-compose file in your code-repo.
 
 #### Video Link
-
+[Zoom Recording](https://us06web.zoom.us/rec/share/mj7CXWTB3MEcK2GowzYSCVsA8G7lB2u5Bfq70ojOEnzRE9S_zZHbavlVkHxgi6AY.GLaAKU_HfmnqSwJO) Passcode: KxrFY5A$
 ### Pre-requisites
 - [Install the latest version of Docker Desktop](https://docs.docker.com/engine/install/)
 - Shutdown any other services that may be running on conflicting ports 
