@@ -24,7 +24,7 @@ cd thirty-minute-thursday/10-06-2022
 ### Why use Docker
 Quickly build predictable containers to develop and deploy applications, using infrastructure as code.  Docker has a rich eco-system of prebuilt containers including those from all major service vendors (list here). Dockerfiles can be versioned and stored within application directories so that all developers can develop in a identical environment.  
 
-### Running Single Commands 
+### Running Commands 
 #### With a prebuilt container
 This command spins up a disposable(--rm) php8 container with an interactive terminal (-it), mounts the current local directory on the /tmp folder in the container and executes a script that searches pubmed with a search phrase. 
 ```
@@ -33,7 +33,7 @@ docker run --rm -it -v ${PWD}:/tmp php:8 php /tmp/search_pubmed_by_title.php "Ce
 ```
 #### With a custom container
 
-### Run a Stack of containers indefinitely
+### Run a Stack
 Stub
 ### Using DockerHub
 Stub
