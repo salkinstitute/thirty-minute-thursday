@@ -4,10 +4,11 @@ We will get right into running a stack of containers and see how to build our ow
 ## Here's what we'll cover:
   1. [Launch An Existing Salk Laravel Stack](#launch-an-existing-salk-laravel-stack)
   2. [Creating a new Laravel Stack](#creating-a-new-laravel-stack).
-  3. Common questions (STUB)
+  3. Common questions
 
 #### Video Link
-STUB 
+[Recorded Zoom Video](https://us06web.zoom.us/rec/share/BSPgsPrY1XbNxU3N7rC6xr-U0m1beW_ewh46s3ylGtTDNNDAq6kinxDaU8KapkWU.WanxVjmCZqoBKh2K) 
+Passcode: S@9S=Lgo 
 
 ## Launch an existing Salk Laravel stack
 1. Clone into a new folder
